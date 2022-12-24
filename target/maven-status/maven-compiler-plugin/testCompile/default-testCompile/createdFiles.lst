@@ -1,2 +1,4 @@
 Tests.class
 JvmUtilities.class
+observer\ConcreteMemberTest.class
+observer\GroupAdminTest.class
