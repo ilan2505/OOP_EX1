@@ -15,6 +15,14 @@ We need to use the Observer Design Pattern for this assignment.
   <img align="center" width=100% src = ""/>
 </p>
 
+```
+-------------------------------------------------------------------------------
+Test set: observer.GroupAdminTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.413 sec - in observer.GroupAdminTest
+
+```
+
 # Ex1 contains 2 Interfaces :
 * Member.java
 * Sender.java
