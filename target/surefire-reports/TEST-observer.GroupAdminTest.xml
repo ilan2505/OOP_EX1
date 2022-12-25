@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Tests" time="4.46" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="observer.GroupAdminTest" time="7.54" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
@@ -60,5 +60,10 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test" classname="Tests" time="4.455"/>
+  <testcase name="append" classname="observer.GroupAdminTest" time="0"/>
+  <testcase name="delete" classname="observer.GroupAdminTest" time="0"/>
+  <testcase name="insert" classname="observer.GroupAdminTest" time="0"/>
+  <testcase name="register" classname="observer.GroupAdminTest" time="5.263"/>
+  <testcase name="undo" classname="observer.GroupAdminTest" time="0"/>
+  <testcase name="unregister" classname="observer.GroupAdminTest" time="2.269"/>
 </testsuite>

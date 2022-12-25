@@ -27,8 +27,34 @@ public class ConcreteMember implements Member {
      */
     @Override
     public void update(UndoableStringBuilder usb) {
-        System.out.println("Member " + this.name + " was notified of the change: " + this.lastChange + " -> " + usb.toString());
-        this.lastChange = usb.toString();
+        //System.out.println("Member " + this.name + " was notified of the change: " + this.lastChange + " -> " + usb.toString());
         this.usb = usb;
+        if (usb != null) {
+            this.lastChange = usb.toString();
+        }
+    }
+
+    /**
+     * This method returns the name of the member (for testing purpose).
+     * @return the name of the member
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * This method returns the UndoableStringBuilder (for testing purpose).
+     * @return - the UndoableStringBuilder
+     */
+    public UndoableStringBuilder getUsb() {
+        return usb;
+    }
+
+    /**
+     * This method returns the last change done to the UndoableStringBuilder (for testing purpose).
+     * @return - the last change done to the UndoableStringBuilder
+     */
+    public String getLastChange() {
+        return lastChange;
     }
 }
