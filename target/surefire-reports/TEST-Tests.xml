@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="Tests" time="0" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Tests" time="4.46" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="19.0.1+10-21"/>
@@ -20,8 +20,7 @@
     <property name="java.runtime.version" value="19.0.1+10-21"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\D403~1\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="cp862"/>
@@ -45,7 +44,7 @@
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\plugins\maven\lib\maven3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="19"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.home" value="C:\Users\יונתן בוריצקי\.jdks\openjdk-19.0.1"/>
     <property name="user.language" value="he"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,4 +60,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+  <testcase name="test" classname="Tests" time="4.455"/>
 </testsuite>
