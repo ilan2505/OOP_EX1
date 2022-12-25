@@ -47,7 +47,7 @@ $ mvn clean test
 [INFO] Finished at: 2022-12-25T09:42:09+02:00
 [INFO] ---------------------------------
 ```
-8. You can also see the results of the tests in command line under this print:
+8. You can also see the results of the tests in command line:
 ```
 -------------------------------------------------------
  T E S T S
@@ -72,35 +72,9 @@ INFO: Address = observer.GroupAdmin@20d28811d footprint:
          1        24        24   observer.GroupAdmin
          1        24        24   observer.UndoableStringBuilder
          8                 256   (total)
-???? 25, 2022 2:14:21 ????? observer.GroupAdminTest register
-INFO: After registering all members, the total size of the groupAdmin is: Total Memory = 1585824
-???? 25, 2022 2:14:23 ????? observer.GroupAdminTest register
-INFO: Address = observer.GroupAdmin@20d28811d footprint:
-     COUNT       AVG       SUM   DESCRIPTION
-     20001        24    480032   [B
-         1        56        56   [Ljava.lang.Object;
-         1     65552     65552   [Ljava.util.HashMap$Node;
-         1        16        16   java.lang.Object
-     20000        24    480000   java.lang.String
-         1        24        24   java.lang.StringBuilder
-         1        48        48   java.util.HashMap
-     10000        32    320000   java.util.HashMap$Node
-         1        16        16   java.util.HashSet
-         1        32        32   java.util.Stack
-     10000        24    240000   observer.ConcreteMember
-         1        24        24   observer.GroupAdmin
-         1        24        24   observer.UndoableStringBuilder
-     60010             1585824   (total)
-This observer has already registered
-???? 25, 2022 2:14:23 ????? observer.GroupAdminTest register
-INFO: JVM info: PID= 18252, Total Memory = 220200960, Available Cores = 4
 ...
 ...
 ...
 ...
 ...
 ```
-
-
-
-
