@@ -134,7 +134,7 @@ INFO: Address = observer.GroupAdmin@20d28811d footprint:
 ```
 
  # Results for the test of GroupAdmin 
- ```
+```
 -------------------------------------------------------------------------------
 Test set: observer.GroupAdminTest
 -------------------------------------------------------------------------------
