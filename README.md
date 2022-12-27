@@ -133,16 +133,11 @@ INFO: Address = observer.GroupAdmin@20d28811d footprint:
 ...
 ```
 
- # Results for the test of GroupAdmin 
+ # Results for the tests
 ```
 -------------------------------------------------------------------------------
-Test set: observer.GroupAdminTest
+Test set: Tests
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.413 sec - in observer.GroupAdminTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.93 sec - in Tests
 
 ```
- 
- # Results for the test of ConcretMember 
- 
-
-
