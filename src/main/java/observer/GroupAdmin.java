@@ -1,4 +1,7 @@
 package observer;
+import org.junit.platform.commons.logging.Logger;
+import org.junit.platform.commons.logging.LoggerFactory;
+
 import java.util.HashSet;
 
 /**
@@ -102,5 +105,21 @@ public class GroupAdmin implements Sender {
         for (Member obs : this.observers) {
             obs.update(this.usb);
         }
+    }
+
+    /**
+     * The method come back to the list of members (observers) (for testing purpose).
+     * @return - the list of members (observers)
+     */
+    public HashSet<Member> getObservers() {
+        return observers;
+    }
+
+    /**
+     * The method come back to the states pool (UndoableStringBuilder) (for testing purpose).
+     * @return - the states pool (UndoableStringBuilder)
+     */
+    public UndoableStringBuilder getUsb() {
+        return usb;
     }
 }
