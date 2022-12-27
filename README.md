@@ -109,27 +109,36 @@ $ mvn clean test
 ```
 -------------------------------------------------------
  T E S T S
-----------------------------------------------------------------------------------------------------
-Running observer.ConcreteMemberTest
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec - in observer.ConcreteMemberTest
-Running observer.GroupAdminTest
-???? 25, 2022 2:14:17 ????? observer.GroupAdminTest register
-INFO: JVM info: PID= 18252, Total Memory = 132120576, Available Cores = 4
+-------------------------------------------------------
+Running Tests
+???? 27, 2022 8:21:53 ????? Tests append
+INFO: JVM info: PID= 13688, Total Memory = 132120576, Available Cores = 4
 # WARNING: Unable to attach Serviceability Agent. You can try again with escalated privileges. Two options: a) use -Djol.tryWithSudo=true to try with sudo; b) echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope
-???? 25, 2022 2:14:19 ????? observer.GroupAdminTest register
-INFO: groupAdmin is now created, the total size of the groupAdmin is: Total Memory = 256
-???? 25, 2022 2:14:19 ????? observer.GroupAdminTest register
-INFO: Address = observer.GroupAdmin@20d28811d footprint:
+???? 27, 2022 8:21:57 ????? Tests append
+INFO: After append, the total size of the groupAdmin is: Total Memory = 2066000
+???? 27, 2022 8:21:58 ????? Tests append
+INFO: Address = observer.GroupAdmin@19a31b9dd footprint:
      COUNT       AVG       SUM   DESCRIPTION
-         1        32        32   [B
+     20003        48    960144   [B
          1        56        56   [Ljava.lang.Object;
+         1     65552     65552   [Ljava.util.HashMap$Node;
+         1        16        16   java.lang.Object
+     20002        24    480048   java.lang.String
          1        24        24   java.lang.StringBuilder
          1        48        48   java.util.HashMap
+         1        16        16   java.util.HashMap$KeySet
+     10000        32    320000   java.util.HashMap$Node
          1        16        16   java.util.HashSet
          1        32        32   java.util.Stack
+     10000        24    240000   observer.ConcreteMember
          1        24        24   observer.GroupAdmin
          1        24        24   observer.UndoableStringBuilder
-         8                 256   (total)
+     60015             2066000   (total)
+???? 27, 2022 8:21:58 ????? Tests append
+INFO: JVM info: PID= 13688, Total Memory = 206569472, Available Cores = 4
+-----------------------------------------------------------------------------------------
+...
+...
 ...
 ```
 
