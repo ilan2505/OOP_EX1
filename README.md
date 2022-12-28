@@ -1,4 +1,4 @@
-# OOP_2021_Ex1
+# OOP_Ex1
 Second Assignment in Object-oriented programming course in Java @Ariel_University_2022
 
 # Authors :
