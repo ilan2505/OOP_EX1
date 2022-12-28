@@ -55,6 +55,9 @@ Objects of this class :
 We are going to explains each methods :
 * ConcreteMember(String name) --> Constructor (given name of the member).
 * update(UndoableStringBuilder usb) --> Updates the member on the last change done to the UndoableStringBuilder.
+* getName() --> This method returns the name of the member (for testing purpose).
+* getUsb() --> This method returns the UndoableStringBuilder (for testing purpose).
+* getLastChange() --> This method returns the last change done to the UndoableStringBuilder (for testing purpose).
  
 # 2) GroupAdmin.java
 This class is an implement of Sender interface, which describes the sender of the updates (Observable) and contains the states pool (UndoableStringBuilder)
@@ -73,6 +76,29 @@ We are going to explains each methods :
 * append(String obj) --> Appends the required string to the mutable characters sequence.
 * delete(int start, int end) --> Removes the characters from specified range of this sequence.
 * undo() --> Come back to the previous state of the UndoableStringBuilder.
+* getObservers() --> The method come back to the list of members (observers) (for testing purpose).
+* getUsb() --> The method come back to the states pool (UndoableStringBuilder) (for testing purpose).
+
+# 3) Tests.java
+this class proposes the tests that we made for ConcreteMember.java and GroupAdmin.java.
+We are testing these 7 methods :
+* register()  --> This method tests the register method from GroupAdmin.java
+* unregister() --> This method tests the unregister method from GroupAdmin.java
+* insert() --> This method tests the notifyObservers method from GroupAdmin.java
+* append() --> This method tests the append method from GroupAdmin.java
+* delete() --> This method tests the delete method from GroupAdmin.java
+* undo() --> This method tests the undo method from GroupAdmin.java
+* update() --> This method tests the update method from ConcreteMember.java
+
+## Results for the tests
+```
+-------------------------------------------------------------------------------
+Test set: Tests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.93 sec - in Tests
+
+```
+
 
 # How to run ? (Installing)
 For Windows OS:  
@@ -142,11 +168,4 @@ INFO: JVM info: PID= 13688, Total Memory = 206569472, Available Cores = 4
 ...
 ```
 
- # Results for the tests
-```
--------------------------------------------------------------------------------
-Test set: Tests
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.93 sec - in Tests
-
-```
+ 
