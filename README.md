@@ -25,7 +25,7 @@ We need to use the Observer Design Pattern for this assignment.
 
 # UML of the project :
 <p align="center">
-  <img align="center" width=80% src = "https://user-images.githubusercontent.com/55143087/209473572-de7a35b5-0b2f-4bad-8bb0-a2f3dc9abccc.png"/>
+  <img align="center" width=80% src = "https://user-images.githubusercontent.com/55143087/209832084-7db0a792-e29b-4779-8f8d-42b60990d4f8.png"/>
 </p>
 
 
