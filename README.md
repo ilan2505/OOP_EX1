@@ -80,7 +80,7 @@ We are going to explains each methods :
 * getUsb() --> The method come back to the states pool (UndoableStringBuilder) (for testing purpose).
 
 # 3) Tests.java
-this class proposes the tests that we made for ConcreteMember.java and GroupAdmin.java.
+this class proposes the tests that we made for ConcreteMember.java and GroupAdmin.java with the help of the class JvmUtilities.java.
 We are testing these 7 methods :
 * register()  --> This method tests the register method from GroupAdmin.java
 * unregister() --> This method tests the unregister method from GroupAdmin.java
