@@ -2,8 +2,8 @@
 Second Assignment in Object-oriented programming course in Java @Ariel_University_2022
 
 # Authors :
-* Boritsky Jonatan : 207254194
-* Souffir Ilan Meir : 342615648
+* Boritsky Jonatan
+* Souffir Ilan Meyer
 
 # Dependencies
 
