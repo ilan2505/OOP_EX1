@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * This class is a test class for the ConcreteMember class + GroupAdmin class.
- * @author Jonatan Boritsky : 207254194,  Ilan Meyer Souffir : 342615648
+ * @author Jonatan Boritsky,  Ilan Meyer Souffir
  */
 public class Tests {
     public static final Logger logger = LoggerFactory.getLogger(Tests.class);
