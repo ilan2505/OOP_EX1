@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * This class provides a support for the UNDO operation to the StringBuilder Java api.
- * @author Jonatan Boritsky : 207254194,  Ilan Meyer Souffir : 342615648
+ * @author Jonatan Boritsky,  Ilan Meyer Souffir
  */
 public class UndoableStringBuilder {
     // Private variables
